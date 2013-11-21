@@ -103,6 +103,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4yd-SZ-bof">
+                                <rect key="frame" x="234" y="279" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -425,6 +432,9 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="wbF-rH-8KR" kind="push" id="xhe-TP-tZf"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="iRO-dc-4mE" style="IBUITableViewCellStyleDefault" id="2Fl-sP-hhu">
                                         <rect key="frame" x="0.0" y="240" width="320" height="44"/>
@@ -442,9 +452,72 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="4ba-xu-WvL" kind="push" id="CYA-gt-j3J"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="l0R-dH-aB0" style="IBUITableViewCellStyleDefault" id="OnW-iW-75X">
+                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OnW-iW-75X" id="1IL-1H-DRa">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="DORA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l0R-dH-aB0">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="NmG-Fr-tcB" kind="push" id="aBT-hQ-6wB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="dj9-mh-mXr" style="IBUITableViewCellStyleDefault" id="dKp-27-KJK">
+                                        <rect key="frame" x="0.0" y="328" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dKp-27-KJK" id="PvO-iX-oaP">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MOSEL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dj9-mh-mXr">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Sw6-x5-OX7" kind="push" id="1Kh-VZ-hJa"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Xde-rj-U0x" style="IBUITableViewCellStyleDefault" id="9Lw-LX-ejQ">
+                                        <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Lw-LX-ejQ" id="ivF-TR-Opl">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="WD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xde-rj-U0x">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Fqd-n8-Fo8" kind="push" id="fJ2-MR-RBP"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="RrH-zR-z1P" style="IBUITableViewCellStyleDefault" id="smh-c9-ZYF">
-                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="416" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="smh-c9-ZYF" id="ZQT-fY-cfB">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -459,9 +532,12 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="hDy-Aa-5Zm" kind="push" id="TSl-FU-pY5"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="QpM-ol-6fe" style="IBUITableViewCellStyleDefault" id="hGr-tW-fd8">
-                                        <rect key="frame" x="0.0" y="328" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="460" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hGr-tW-fd8" id="iTB-fy-ir7">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -476,9 +552,12 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="C76-aM-19d" kind="push" id="NVB-4e-suM"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="LoS-ma-hFX" style="IBUITableViewCellStyleDefault" id="wYB-Zf-kyn">
-                                        <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wYB-Zf-kyn" id="M0d-vu-TDj">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -498,7 +577,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="aMb-Gg-OIT" style="IBUITableViewCellStyleDefault" id="JW5-u9-4Xe">
-                                        <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="548" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JW5-u9-4Xe" id="0jR-pf-ulJ">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -518,7 +597,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="eCu-AU-10O" style="IBUITableViewCellStyleDefault" id="b5f-U7-Hlt">
-                                        <rect key="frame" x="0.0" y="460" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="592" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b5f-U7-Hlt" id="yIY-Rh-PEh">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -533,57 +612,9 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="l0R-dH-aB0" style="IBUITableViewCellStyleDefault" id="OnW-iW-75X">
-                                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OnW-iW-75X" id="1IL-1H-DRa">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="DORA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l0R-dH-aB0">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="dj9-mh-mXr" style="IBUITableViewCellStyleDefault" id="dKp-27-KJK">
-                                        <rect key="frame" x="0.0" y="548" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dKp-27-KJK" id="PvO-iX-oaP">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MOSEL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dj9-mh-mXr">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Xde-rj-U0x" style="IBUITableViewCellStyleDefault" id="9Lw-LX-ejQ">
-                                        <rect key="frame" x="0.0" y="592" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Lw-LX-ejQ" id="ivF-TR-Opl">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="WD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xde-rj-U0x">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="mxu-FE-VqZ" kind="push" id="Xrv-yi-G23"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -607,11 +638,11 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8Y3-mT-F5y">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="8Y3-mT-F5y">
                                 <rect key="frame" x="0.0" y="164" width="320" height="404"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -624,7 +655,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gestion urbaine" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lOj-yn-DAP">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="90" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -636,7 +667,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NXg-qA-Czj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="391" y="-1806"/>
+            <point key="canvasLocation" x="423" y="-2229"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="fsn-zL-9Ao">
@@ -901,7 +932,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QeB-RY-tYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="993" y="-1282"/>
+            <point key="canvasLocation" x="1397" y="-1422"/>
         </scene>
         <!--Navigation Controller - Formation-->
         <scene sceneID="3Xp-ny-CcU">
@@ -927,11 +958,37 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="owQ-g4-SeR">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" id="owQ-g4-SeR">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale et continue | Site Engel Gros à Belfort
+ 
+Ce diplôme a pour objectif de former des spécialistes de l’informatique dont le métier implique une activité de conception, de réalisation et de mise en œuvre d’outils informatiques, mis ensuite à la disposition d’utilisateurs.     
+ 
+Public visé
+Admission sur dossier :
+• baccalauréat S, ES (option mathématiques), STT (option informatique et gestion), STI
+• diplôme d’accès aux études universitaires (DAEU B option scientifique)  
+• salariés et demandeurs d'emploi (formation continue et VAE)
+puce Insertion professionnelle
+Grandes sociétés (Peugeot, SNCF…), sociétés de services informatiques, PME-PMI, collectivités locales. Les besoins en informaticiens de niveau bac + 2 sont importants. Ils remplissent les fonctions d’adjoint aux ingénieurs.
+ 
+Il peuvent être responsables :
+• de la réalisation et application différée par le cahier des charges ou la modification des logiciels existants
+• de la conduite de l’exploitation d’un centre informatique
+• de la gestion du réseau informatique
+• de l’assistance aux utilisateurs pour la mise en exploitation de nouveaux produits
+puce Poursuite d'études
+Licence professionnelle
+• Systèmes informatiques et logiciels, spécialités
+- Technologies de Projets web et mobiles (Belfort)
+- Conception et développement orientés objet d’applications multitiers (Besançon)
+ 
+Licence
+• Informatique en présentiel (Besançon) ou en télé-enseignement
+ 
+Ecoles d'ingénieurs</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -944,7 +1001,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informatique" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XBA-w2-F29">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="100" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -956,7 +1013,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R3z-sj-vF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1866" y="-1085"/>
+            <point key="canvasLocation" x="2298" y="-617"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1FR-FU-uc8">
@@ -966,11 +1023,44 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="X9R-KN-cgH">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="X9R-KN-cgH">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale et continue | Avenue Maréchal Juin à Belfort
+ 
+Polyvalent par sa formation en électronique, électrotechnique, informatique industrielle, réseaux locaux industriels et automatismes, ce DUT mène aux emplois dans les industries électriques et électroniques, les télécommunications, les appareillages, l’énergie, les industries de transformation, les transports, l’aéronautique, la santé ou les énergies nouvelles et renouvelables.
+ 
+Deux spécialités (au semestre 4) :
+• Signal et transmissions
+• Énergies et systèmes  
+ 
+Public visé
+Admission sur dossier :
+• Baccalauréat S, STI (électronique, électrotechnique), STL (physique de laboratoire)
+• Diplôme d’Accès aux Etudes Universitaires (DAEU B scientifique)  
+• Baccalauréat professionnel du domaine (+ entretien)
+• Salariés et demandeurs d'emploi (formation continue et VAE)
+• Admission parallèle à partir du semestre 2 (BTS, CPGE...)
+
+Insertion professionnelle
+Industries électriques et électroniques, appareillages et instrumentation, production d’énergie, automobile et transports, aéronautique, biens de consommation :
+ 
+• Etudes : analyse d’un cahier des charges, conception de dispositifs et systèmes électroniques.
+• Essais-contrôles : conception et réalisation de prototypes, définition des procédures de contrôle.
+• Encadrement de la fabrication : organisation du travail des équipes et suivi de la production (ex. automatismes et robotique) installation et maintenance de systèmes complexes (ex. électronique médicale) cadre technico-commercial pour la vente de systèmes électroniques, informatiques ou d’instrumentation très complexes, exploitation et maintenance de sites isolés, dans le domaine des énergies nouvelles.
+puce 
+
+Poursuite d'études
+Licence professionnelle
+• Véhicules : électronique et gestion des automatismes (VEGA)
+• Gestion de projets d’innovation (GPI)
+ 
+Licence
+Électrotechnique, électronique et automatique (E.E.A)
+ 
+École d’ingénieurs
+Instrumentation et techniques bio-médicales à l'Institut Supérieur d’Ingénieurs de Franche-Comté (ISIFC)</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -983,7 +1073,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Génie électronique et Info Industrielle" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r02-UT-Dcc">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="20" y="100" width="290" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -995,7 +1085,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QYI-jY-PrU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1139" y="-1795"/>
+            <point key="canvasLocation" x="1261" y="-2203"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4dv-U6-WAG">
@@ -1005,11 +1095,43 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="7Nu-ER-4eV">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="7Nu-ER-4eV">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale et continue | Site des Portes du Jura à Montbéliard
+ 
+Le DUT forme des spécialistes :
+ 
+• des techniques de mesures tant physiques que physico-chimiques (électronique, thermique, vibrations, électrochimie…),
+ 
+• des méthodes d’analyses et contrôle des matériaux (cristallographie, rayons X et gamma, spectrographie, chromatographie…).
+ 
+Public visé
+Admission sur dossier :
+• baccalauréat général et technologique, notamment S, STI et STL,
+• Diplôme d’Accès aux Études Universitaires (DAEU B option scientifique),
+• salariés et demandeurs d'emploi relavant de la formation continue.
+
+Insertion professionelle
+Emplois très variés dans de nombreux secteurs : automobile, aéronautique, mécanique, microtechnique, informatique, chimie et industrie pharmaceutique, environnement, agro-alimentaire…
+ 
+Dans les entreprises, les diplômés interviennent le plus souvent au sein des laboratoires, des services de recherche et développement, qualité, métrologie…
+
+Poursuite d'études
+Licence professionnelle
+• Santé, spécialités
+- Dosimétrie et Radioprotection Médicales
+- Capteurs, Instrumentation, Métrologie
+• Électricité et électronique, spécialité Véhicules : électronique et Gestion des Automatismes
+ 
+Licence
+• Physique-chimie, parcours Physique
+• Électrotechnique, électronique et Automatique
+ 
+Autres
+• Instrumentation et Techniques Biomédicales (ISIFC)
+• Écoles d’ingénieurs</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1022,7 +1144,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mesure physique" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RIW-YL-c8i">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="95" y="100" width="135" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1034,7 +1156,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1hY-MN-8L0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1846" y="-1795"/>
+            <point key="canvasLocation" x="2159" y="-2160"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="En2-TO-6tv">
@@ -1044,11 +1166,54 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="q6h-NA-Glo">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="q6h-NA-Glo">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Directeur des études | John Pol Pierrel
+Formation initiale, formation continue
+ 
+Le DUT Carrières Sociales forme des travailleurs sociaux ayant une connaissance des publics (famille, intergénérations, jeunes, exclus), et des dispositifs pouvant les guider dans leurs actions.
+ 
+La formation vise également au travers de la sociologie, la psychologie, les sciences de l’éducation, l’économie, à renforcer leurs capacités d’analyse, elles-mêmes facilitées par la maîtrise d’outils, tels que la gestion, l’informatique, et la méthodologie de projet.   
+
+Publics
+ 
+Admission sur dossier :
+• baccalauréats L, S, ES, STT, SMS et STI,
+• Diplômes d’Accès aux Études Universitaires (DAEU A et B),
+• possibilité de Validation des Acquis pour les non-bacheliers,
+• formation continue.
+ 
+Admission définitive : tests écrits de culture générale, professionnelle et de motivation.
+ 
+Insertion professionnelle
+ 
+Etre coordonnateur de :
+- services à la famille (garde d’enfants, soutien scolaire),
+- services de santé à domicile,
+- services liés à la qualité de vie à domicile (tâches ménagères, petites réparations, portage de repas),
+- services liés au logement ou au cadre de vie (jardinage, gardiennage),
+- services d’intermédiation (conseil juridique, assistance aux démarches administratives)  
+ 
+Poursuite d'études
+ 
+Licences pro.
+• Intervention Sociale, spécialités :
+- Animation Sociale et Socioculturelle
+- Famille, Vieillissement et Problématiques Intergénérationnelles
+• Activités sportives
+• Management des organisations
+ 
+Licences
+• Sciences Humaines
+• Administration Economique et Sociale
+ 
+Autres
+• Les diplômes professionnels : DEFA, DSTS, DEDPAD
+ 
+Après la licence : Master, CAPLP2 sciences médico-sociales 
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1061,7 +1226,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service à la personne" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Irb-Q9-I8g">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="119" y="64" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1073,7 +1238,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tJ5-4S-HDI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="773" y="-1097"/>
+            <point key="canvasLocation" x="3345" y="-525"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fpr-IA-YAN">
@@ -1083,11 +1248,48 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="fCp-4y-cl2">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" id="fCp-4y-cl2">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Directeur des études | John Pol Pierrel
+Formation initiale, formation continue
+  
+Le DUT Carrières Sociales forme des travailleurs sociaux ayant une connaissance des publics (famille, intergénérations, jeunes, exclus), et des dispositifs pouvant les guider dans leurs actions.
+ 
+La formation vise également au travers de la sociologie, la psychologie, les sciences de l’éducation, l’économie, à renforcer leurs capacités d’analyse, elles-mêmes facilitées par la maîtrise d’outils, tels que la gestion, l’informatique, et la méthodologie de projet.   
+
+ Publics
+ 
+Admission sur dossier :
+• baccalauréats L, S, ES, STT, SMS et STI,
+• Diplômes d’Accès aux Études Universitaires (DAEU A et B),
+• possibilité de Validation des Acquis pour les non-bacheliers,
+• formation continue.
+ 
+Admission définitive : tests écrits de culture générale, professionnelle et de motivation.
+ 
+puce Insertion professionnelle
+ 
+Technicien d’encadrement dans les structures d’animation sociale et socio-culturelle et organismes prestataires de service de proximité  
+ 
+Poursuite d'études
+ 
+Licences pro.
+• Intervention Sociale, spécialités :
+- Animation Sociale et Socioculturelle
+- Famille, Vieillissement et Problématiques Intergénérationnelles
+• Activités sportives
+• Management des organisations
+ 
+Licences
+• Sciences Humaines
+• Administration Economique et Sociale
+ 
+Autres
+• Les diplômes professionnels : DEFA, DSTS, DEDPAD
+ 
+Après la licence : Master, CAPLP2 sciences médico-sociales</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1100,7 +1302,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animation Sociale et Socio-Culturel" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bl9-gC-B6W">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="25" y="100" width="300" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1112,7 +1314,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZWo-E8-CmZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1146" y="-1097"/>
+            <point key="canvasLocation" x="1962" y="-581"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CaL-EJ-S4a">
@@ -1122,11 +1324,24 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="49R-c2-0Bf">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="49R-c2-0Bf">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Le département R&amp;T (Réseaux &amp; Télécommunications, créé en 1994, alors appelé GTR) fait partie de l'IUT de Belfort-Montbéliard dans l'Université de Franche-Comté. 
+
+La formation se déroule sur le Pôle Universitaire de Montbéliard qui est doté d'infrastructures modernes ce qui permet aux étudiants de se former dans d'excellentes conditions. L'équipe des formateurs du département vous proposera des enseignements orientés vers les nouvelles technologies de l'information, les échanges multimédia.
+
+Vous apprendrez à concevoir, mettre en place et administrer des réseaux informatiques et de télécommunications. Les enseignements intègrent aussi de l'informatique permettant des poursuites d'études dans ce domaine. Le département forme des techniciens supérieurs (Bac+2) capables de mettre en place et d'administrer les réseaux informatiques et de télécommunications. 
+
+Cette addition de compétences ouvre un large éventail d'opportunités pour votre insertion professionnelle ou vos poursuites d'études.
+
+Notre département vous propose :
+de bac à bac+2, la formation IUT de base qui amène au DUT. Ce diplôme permet soit de trouver un emploi, soit de poursuivre des études (Ecoles d'ingénieur, Mastères, Licences professionnelles). Cette formation existe à Montbéliard sous deux formes :
+DUT en formation initiale (formation à l'IUT puis stage en entreprise en fin de seconde année)
+ou DUT en formation par apprentissage (formation avec alternances de périodes à l'IUT et en entreprise)
+
+De bac+2 à bac+3, une licence professionnelle CART (Chargé d'Affaires en Réseaux et Télécommunications), qui vous donne la compétence commerciale pour le technique ; vous aurez ainsi une double compétence technico-commerciale. Cette formation aussi existe en formation initiale et en apprentissage.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1139,7 +1354,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Réseaux et télécommunication" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dvd-nm-z97">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="45" y="100" width="242" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1151,7 +1366,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g6E-fd-l8p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2221" y="-1085"/>
+            <point key="canvasLocation" x="3345" y="-1181"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jlJ-3S-xDL">
@@ -1161,11 +1376,42 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Rmc-DX-pCe">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="Rmc-DX-pCe">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale et continue | Site Belfort Centre
+ 
+Le DUT Techniques de Commercialisation vise à former des techniciens supérieurs, généralistes du commerce, appelés à travailler soit directement à la vente, soit dans les services commerciaux (marketing, communication, logistique...) dans les secteurs très divers : banques, assurances, entreprises de distribution, sociétés de conseil et communication.
+ 
+Publics visés
+Admission sur dossier :
+• baccalauréats général et technologique,
+• Diplôme d’Accès aux Etudes Universitaires A option littéraire,
+• formation continue et VAE.
+ 
+Recrutement en 2 temps :
+• admissibilité sur dossier,
+• admission définitive après entretien de motivation.
+puce Insertion professionnelle
+Les diplômés s’insèrent sans difficulté dans tout type d’entreprise grâce à leur formation de collaborateurs commerciaux polyvalents capables d’assurer les fonctions de vente, d’achat, de distribution. Les secteurs d’activités sont très variés : banques et assurances (conseillers clientèle), grande distribution (chef de rayons), industrie (export, marketing, achats, administration des ventes).
+puce Poursuite d'études
+Licence professionnelle
+• Commerce, spécialités :
+- Technologies de l’Information et de la Communication Appliquées au Marketing et au Commerce,
+- Achats
+- Attaché au Développement International des Organisations
+- Marketing et communication des Organisations du Sport, de l'Événementiel et des Loisirs
+• Management des Organisations, spécialités :
+- Conduite de Projets Internationaux de Co-développement
+- Assistant Marketing et Communication dans les PME
+ 
+Licence
+• Licence LEA - sous réserve d’une 2e langue vivante
+• Licence AES
+ 
+Autres
+• Ecoles Supérieures de Commerce</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1178,7 +1424,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technique de Commericalisation" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9d2-gD-bi0">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="45" y="100" width="275" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1190,7 +1436,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2h-yK-Xdm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1511" y="-1097"/>
+            <point key="canvasLocation" x="2963" y="-1433"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lKK-Fn-Fa5">
@@ -1200,11 +1446,16 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="cts-gP-oAW">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="cts-gP-oAW">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Bac +2, Bac+3 et +
+Insertion professionnelle ou poursuites
+ 
+Le DUT GACO forme des assistants de gestion et de commerce polyvalents. Ils doivent avoir une très bonne compréhension des enjeux internes et externes liés à l'organisation (entreprise, administration, association, collectivités). L'ensemble des matières ont le même coefficient.
+ 
+L’orientation pro. permet aux étudiants d’envisager une insertion professionnelle à Bac +2 notamment dans les petites et moyennes entreprises, les banques, la grande distribution... Près de 80 % d'entre eux poursuivent leurs études principalement vers des licences professionnelles ; c'est alors l'occasion de se spécialiser (Ressources humaines, marketing, banque, communication, management culturel, international...). D'autres étudiants poursuivent dans des écoles de commerce ou s'inscrivent dans un cursus universitaire long.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1217,7 +1468,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gestion administrative" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Tl-IM-3O4">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="80" y="100" width="250" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1229,7 +1480,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GrE-t3-Iau" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="773" y="-1801"/>
+            <point key="canvasLocation" x="861" y="-2209"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qFp-Yn-7KW">
@@ -1239,11 +1490,36 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ls5-uV-sYR">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="ls5-uV-sYR">
+                                <rect key="frame" x="0.0" y="140" width="320" height="885"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale, formation continue et apprentissage (2e année)
+
+Le DUT Génie Civil vise à la formation de collaborateurs polyvalents participant à la responsabilité de l'étude et de l'exécution des travaux de génie civil :
+dans un bureau d'études, ils secondent les ingénieurs,
+sur le chantier, ils sont en charge de l'exécution, du suivi, de la gestion des opérations et cela a des degrés différents suivant le type de chantier,
+dans les laboratoires d'essais ou de recherche, ils sont chargés de l'organisation, de l'exécution et du dépouillement des programmes d'expériences.
+
+Public visé
+• Baccalauréats série scientifiques ou technologiques
+• Diplôme d'Accès aux Etudes Universitaires B option scientifique
+• Intégration en 2e année pour certaines formations scientifiques post-bac
+• Salariés et demandeurs d'emploi (formation continue et VAE)
+puce Insertion professionnelle
+Chef de chantier, conducteur de travaux, technicien supérieur en bureau d’étude, technicien supérieur en bureau des Méthodes, économiste de la construction, technicien de laboratoire, collaborateur de Maître d’œuvre, assistance Maîtrise d’Ouvrage, gestionnaire d’un parc immobilier, responsable d’un service technique... 
+puce Poursuites d'études
+Ecoles d'ingénieur
+- ESTP, INSA, POLYTECH...
+ 
+Licence professionnelle
+• Conduite de travaux et Performance Energétique des Bâtiments (Belfort)
+De très nombreuses licences, éventuellement par apprentissage, vous sont proposées dans les fonctions d'ingénierie, d'exécution des travaux, de technico-commercial...
+ 
+Licence
+• Sciences et techniques
+Autres
+Master en Génie Civil...</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1256,7 +1532,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Construction Durable" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KZS-Wg-57n">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="80" y="100" width="250" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1268,7 +1544,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="One-Tg-hmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="385" y="-1097"/>
+            <point key="canvasLocation" x="2821" y="-617"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zZe-Dh-UwJ">
@@ -1278,11 +1554,43 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="HmO-yH-cnn">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="HmO-yH-cnn">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale et continue | Site Engel Gros à Belfort
+ 
+Le GTE concerne l’ensemble des activités relatives à la production, au transfert, à l’utilisation, à la gestion et l’optimisation de l’énergie thermique dans les industries, les transports et le bâtiment, dans leurs aspects techniques et économiques ainsi que dans leur impact sur l’environnement et le développement durable.
+ 
+Il forme des techniciens supérieurs capables de s’adapter aux technologies nouvelles et maîtrisant la compréhension des phénomènes énergétiques.
+ 
+
+Publics visés
+Admission sur dossier :
+• baccalauréat séries scientifiques ou technologiques,
+• Diplôme d’Accès aux Études Universitaires B option scientifique,
+• salariés ou demandeurs d'emploi relevant de la formation continue,
+• possibilité de VAE pour les non-titulaires du baccalauréat.
+ 
+Possibilité d'intégration directe en 3e semestre pour certaines formations scientifiques post-bac.
+ 
+Insertion professionnelle 
+• Environnement, énergies renouvelables (solaire, éolienne, géothermique…),
+• Ventilation, chauffage, froid, climatisation (industrie, bâtiment),
+• Moteurs thermiques,
+• Aéronautique et aérospatiale,
+• Machines frigorifiques, pompes à chaleur,
+• Laboratoires de recherche et stations d’essai... 
+Poursuite d'études 
+Licence professionnelle
+• Energie et Génie Climatique, spécialité Énergies Renouvelables
+• Gestion de la Production Industrielle, spécialités :
+- Gestion de Projets d’Innovation
+- Logistique Industrielle
+- Gestion de Production Intégrée
+ 
+Autres
+• Diplôme Universitaire Communication Internationale Spécialisée</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1295,7 +1603,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Génie Thermique et Energie" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6bO-x9-Hrr">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="55" y="100" width="1150" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1307,7 +1615,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJj-U6-lRR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1492" y="-1795"/>
+            <point key="canvasLocation" x="1740" y="-2229"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aHj-JI-rlr">
@@ -1317,11 +1625,52 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="jJr-Px-BNL">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="jJr-Px-BNL">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="backgroundColor" red="1" green="0.99457148546404994" blue="0.98089157720277875" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">DUT SRC
+
+Depuis plus de dix ans, le département Services et réseaux de Communication de Montbéliard forme des professionnels de la conception et de la réalisation de produits et de services multimédias en ligne.
+
+Spécialisé au départ dans la réalisation multimédia sur support dense (CD-ROM), notre département a suivi l'évolution rapide du monde numérique et se consacre désormais à l’ensemble des métiers du web. 
+
+À l’ère du web 2.0 et à l'aube du web sémantique, nous avons choisi de traduire dans notre logo – src[*]média – notre vision de la très rapide évolution des espaces numériques, le signe [*] représentant les nombreux qualificatifs susceptibles d'être associés aux médias numériques qui constituent notre sphère d'intérêt : multi, hyper, ubi, rich, wiki, méta, nouveaux, sociaux…
+
+Programme du DUT SRC
+La formation SRC est divisée en quatre semestres validés indépendamment , chacun comprenant 2 ou 3 Unités d’Enseignement (UE) et permettant à l’étudiant de capitaliser 30 crédits ECTS (European Credit Transfer System).
+
+Les cours magistraux sont systématiquement associés à un encadrement rigoureux. Ainsi, les travaux pratiques ou travaux dirigés, réalisés avec un nombre d'étudiants restreint, optimisent l'enseignement.
+
+Répartition CM, TD, TP sur les 1800h d’enseignement
+
+Cours magistraux (360h)
+Travaux dirigés (690h)
+Travaux pratiques (750h)
+
+Unités d'enseignement
+Unité d'enseignement 1
+L’UE1 (Communication, culture et connaissance de l’environnement socio-économique) est à forte dominante communicationnelle, littéraire et artistique.
+
+Unité d’enseignement 2
+L’UE2 (Culture technologique et développement multimédia) est, elle, orientée vers les enseignements scientifiques et techniques tels que l’informatique, les réseaux, l'intégration multimédia, l’infographie ou la vidéo.
+
+Unité d’enseignement 3
+L’UE3 n’apparaît qu’au semestre 4, avec le stage professionnel et le grand projet web de fin de cycle.
+
+Validation des semestres
+Au cours de chaque semestre, les étudiants doivent valider les deux Unités d'Enseignement UE 1 et UE 2.
+
+Le volume total des enseignements dispensés en 4 semestres et 8 UE est de 1800 heures, auxquelles s'ajoutent les 12 semaines de stage professionnel de l'UE 3 du quatrième semestre.
+
+L’après SRC
+Le DUT SRC permet un accès direct à la vie professionnelle mais également diverses poursuites d’études. Lors des séances consacrées au Projet Personnel Professionnel (PPP), chaque étudiant détermine individuellement et sous la conduite d'un enseignant son choix d’orientation selon ses compétences et ses aspirations. De plus, l'enseignement du 4ème semestre propose un cursus dont plusieurs modules sont adaptés au choix de chaque étudiant concernant l'après-DUT : vie professionnelle ou poursuite d'études en programmation, communication/marketing/événementiel ou graphisme.
+
+Candidater pour le DUT SRC
+
+Parmi les bacheliers, une majorité scientifique se dégage, mais l'ensemble des sections est représenté. Rappelons que le DUT SRC, accessible à tous les profils, propose une très efficace – et trop rare – valorisation professionnelle des compétences littéraires et artistiques…
+
+Cependant, l'admission en IUT étant soumise à sélection, il est indispensable de constituer un dossier de candidature et de valider toutes les étapes du processus d'inscription préalable sur www.admission-postbac.fr. Pour toute information complémentaire, n'hésitez pas à contacter notre secrétariat.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1334,7 +1683,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Métier du Multimédia et de l'internet" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H9q-xb-5pd">
-                                <rect key="frame" x="108" y="64" width="128" height="43"/>
+                                <rect key="frame" x="30" y="100" width="287" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1346,7 +1695,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p5F-da-Fyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2213" y="-1795"/>
+            <point key="canvasLocation" x="2633" y="-2070"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TO6-qx-PiH">
@@ -1357,10 +1706,22 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="f1w-Xn-znh">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Licence professionnelle webdesign:
+
+La licence professionnelle Webdesign propose de former des spécialistes de la communication visuelle sur le Web, capables en outre de dialoguer avec les spécialistes de l’informatique et des réseaux afin d’adapter au mieux leurs créations à l’évolution des techniques de l’édition en ligne. Cette licence professionnelle peut être dispensée en formation initiale ou en alternance.
+
+Objectifs
+Il s’agit de donner à des étudiants de niveau Bac + 2 minimum, issus de formations littéraires ou artistiques, des compétences professionnelles dans les domaines de l’interface utilisateur, de l’ergonomie des environnements numériques et de la conception de contenus et services en ligne.Les diplômés seront amenés à participer à toutes les étapes de la conception et de la réalisation de produits ou services interactifs en ligne. À partir d’un cahier des charges, ils rechercheront la solution graphique, ergonomique et technique la mieux adaptée aux services attendus et aux fonctions requises.
+
+Formules
+Initiale
+La licence professionnelle en formation initiale est organisée sur une période de 32 semaines : 420 heures d'enseignement, 130 heures de projet tutoré. Afin de parfaire les connaissances théoriques, 16 semaines de stage en entreprise valident la formation.
+
+Alternance
+La licence professionnelle en alternance est conçue pour une immersion importante en entreprise. Son rythme est pensé sur 2 semaines : 10 jours en entreprise, 3 jours au département. Sauf condition particulière, les congés sont de 5 semaines.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1373,7 +1734,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WD" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ips-Bh-eAy">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="120" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1385,7 +1746,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OIK-Ci-XBl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2910" y="471"/>
+            <point key="canvasLocation" x="2580" y="1369"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Xtp-wf-yGf">
@@ -1395,11 +1756,31 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="IC9-gs-gXw">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="IC9-gs-gXw">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale et continue | Montbéliard
+ 
+Le spectre des compétences et des activités recherchées pour le « dosimétriste » couvre principalement la dosimétrie clinique du patient effectuée sur ordinateur (TPS) mais aussi la radioprotection du patient et des personnels, la maintenance légère des dispositifs médicaux, la pratique sous la responsabilité du physicien de mesures et de contrôles de qualité des appareils et enfin la gestion des informations diagnostiques et thérapeutiques et leur transmission. 
+ 
+&gt; Fiche formation
+puce Public visé
+• DUT Mesures Physiques, Génie électrique, Génie chimique
+• BTS Manipulateurs d’électroradiologie,
+• L2 ou 120 ECTS scientifiques
+• salariés ou demandeurs d’emploi relevant de la formation continue pour lesquels la validation des acquis est possible
+ 
+Des mesures d’accompagnement et de mises à niveau scientifiques et techniques seront prévues en début de cursus selon les diplômes et les compétences des auditeurs.
+puce Insertion professionnelle
+Il y a en France 200 services de radiothérapie employant, suivant la structure de l’établissement (CHU, CH, Centre de lutte contre le cancer, Clinique privée) de 1 à 3 dosimétristes.
+ 
+Une enquête récente a mis en évidence des besoins importants en terme de personnels.
+ 
+La licence DORA propose les débouchés suivants :
+• dosimétriste dans un service de radiothérapie
+• technicien spécialisé de la radioprotection en milieu hospitalier
+• technico-commercial en dosimétrie/radioprotection dans une entreprise</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1412,7 +1793,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DORA" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O3O-Jf-gpb">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="100" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1424,7 +1805,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fgT-30-dRJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2493" y="431"/>
+            <point key="canvasLocation" x="1755" y="1317"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eSQ-Wh-Cft">
@@ -1434,11 +1815,35 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="cjS-0z-FAL">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="cjS-0z-FAL">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Vous êtes ouverts aux autres cultures, vous aimez les langues étrangères et souhaitez acquérir les compétences qui vous permettront d’évoluer dans une fonction commerciale ou administrative à l’international, la licence professionnelle ADIO peut répondre à vos attentes. Nous recherchons des profils variés tant sur le plan de la formation (formation tertiaire, technique ou dans le domaine des langues), que de l’expérience professionnelle (formation initiale, formation continue, alternance).
+
+La formation prépare aux métiers de la fonction tertiaire exercés dans un contexte international. Adossée à des compétences acquises lors d’une formation initiale, elle dote les étudiants de savoir-faire complémentaires leur permettant de se démarquer sur le marché du travail.
+
+Une vingtaine de semaines, de début septembre jusqu’à la mi-février, sont consacrées aux enseignements. Les cours abordent les différentes dimensions d’une activité export ou internationale : langues, interculturel, environnement juridique, prospection, marketing, négociation, logistique, paiements, financements, gestion des risques et fiscalité. Donnés à plus de 50 % par des professionnels, Ils sont marqués par leur caractère opérationnel.
+
+Un stage de 16 semaines minimum, effectué à l’étranger ou en France, dans un service export, ainsi que des projets tuteurés, permettent une mise en pratique des compétences et constituent une véritable porte d’entrée vers le monde professionnel.
+
+Le contrat de professionnalisation et l’apprentissage permettent d’accentuer le caractère professionnalisant de la licence et d’être rémunéré durant la formation.
+
+Débouchés :
+Plus de 50 % des entreprises françaises de plus de 20 salariés exportent. Cette proportion ne cesse de croître. Pour gérer leurs exportations et importations, se développer à l’international, elles recrutent des personnes dotées de compétences spécifiques, les langues étrangères bien sûr, mais également d’une ouverture d’esprit  et de connaissances techniques propres au commerce international.
+ 
+A l'issue de la formation, les diplômés ADIO seront à même de participer à la gestion de l'ensemble des aspects administratifs, financiers, commerciaux, logistiques et juridiques liés aux activités internationales de l'entreprise.
+A titre d’exemple, la licence ADIO prépare aux métiers suivants :
+- collaborateur « back-office » d’un service import-export :
+Administration des ventes ;
+Logistique ;
+Financement, recouvrement, gestion des risques ;
+- chargé de missions, de développement, responsable international ;
+- « commercial », technico-commercial et chargé d’affaires opérant sur des marchés étrangers ;
+- collaborateur dans le secteur de la logistique internationale ;
+- acheteur à l’international ;
+- collaborateur « tertiaire » dans une structure établie à l’étranger, ou travaillant en relation avec une maison mère établie à l’étranger.
+- activité de conseil dans le domaine de l’international au sein de structures publiques ou privées.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1451,7 +1856,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADIO" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o1r-fE-Uyl">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="120" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1463,7 +1868,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Amc-Ed-360" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1442" y="455"/>
+            <point key="canvasLocation" x="694" y="1567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="789-7z-YkS">
@@ -1474,10 +1879,40 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="kjb-t2-GCU">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale, continue et apprentissage
+Site des Portes du Jura à Montbéliard
+ 
+Ce cursus répond aux besoins des entreprises spécialisées pour commercialiser leurs produits, services ou solutions dans les domaines des réseaux, des télécommunications et de l’informatique.
+ 
+La licence ajoute une compétence commerciale à des étudiants bac+2 de la filière technique.
+ 
+&gt; Fiche formation
+&gt; Plaquette de présentation IUT 
+puce Publics visés
+• Titulaires de 120 ECTS dans les domaines Informatique, Mathématiques et Applications,
+• DUT GEII, Informatique, R&amp;T, SRC,
+• BTS IRIS (Informatique et Réseaux pour l’Industrie et les Services Techniques), Informatique de gestion option Administrateur réseaux,
+• Salariés (Droit Individuel à la Formation - DIF ou plan de formation d’entreprise), demandeurs d’emploi, VAE.
+ 
+Possibilité de suivre la formation en alternance par apprentissage ou en contrat de professionnalisation.
+puce Insertion professionnelle 
+Compétences
+- faire de la prospection, établir des devis, effectuer des relances
+- suivre les réunions de chantier
+- organiser les approvisionnements, gérer les achats
+- valider la facture
+- assurer la responsabilité des affaires traitées ou confiées, dans tous ses aspects techniques, managériaux et commerciaux en étant le garant du résultat financier de son affaire
+ 
+Qualités indispensables
+- être rigoureux(se),
+- organisé(e)
+- sens du relationnel
+ 
+Métiers
+Chargé d’affaires, technico-commercial, suivi d’affaires</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1490,7 +1925,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CART" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="35N-dM-zQT">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="120" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1502,7 +1937,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d0G-t6-aQb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2159" y="507"/>
+            <point key="canvasLocation" x="2563" y="2189"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KYz-c6-Ss0">
@@ -1512,11 +1947,39 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6zq-iq-bZS">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="6zq-iq-bZS">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale, continue et apprentissage | Montbéliard
+ 
+Dans le cadre de la démarche par projets, pour répondre aux exigences des clients et rester performant face à la concurrence, les entreprises du secteur industriel sont amenées à mettre en place de nombreux essais sur les produits qu’elles fabriquent.
+ 
+La mise en place de ces essais en phase de développement ou de production est confiée à des techniciens ayant des connaissances scientifiques sûres, spécialisés dans le domaine des techniques instrumentales et des mesures informatisées, formés en métrologie et qualité.
+ 
+Ils doivent être capables de prendre des responsabilités, faire preuve d’autonomie dans la conduite des projets, de travailler en équipe et de communiquer.
+ 
+La licence professionnelle CIM a pour objectif de répondre par une formation de niveau II au besoin des entreprises en apportant une triple compétence dans les domaines de la métrologie qualité, des chaînes de mesures, de la communication et de la gestion de projets.
+ 
+&gt; Fiche formation
+puce Public visé
+• DUT MP, GMP, GEII, R&amp;T, GIM, SGM, GTE, MCQ,
+• BTS industriel (CIRA, IRIS, TPIL …)
+• L2 des secteurs sciences, santé, technologie, en particulier mention mécanique et ingénierie, physique chimie, EEA 
+• CPGE ayant validé 120 crédits ECTS
+• Salariés de niveau III (DUT ou BTS du secteur industriel) voulant obtenir une qualification de niveau II
+• Salariés ou demandeurs d’emplois de niveau IV (bac scientifique, bac technologique industriel, bac professionnel industriel) ayant une expérience professionnelle de 3 ans minimum leur permettant de bénéficier d’une VAE au niveau III.
+puce Insertion professionnelle
+Les métiers visés sont dans le secteur secondaire ceux de la mesure, de l’instrumentation et du contrôle comme par exemple :
+• Technicien/technicienne en mesures physiques
+• Technicien/technicienne responsable qualité
+• Technicien/technicienne responsable de laboratoires de métrologie
+• Cadre technique d’études recherche développement dans l’industrie
+• Responsable des mesures et analyses de laboratoires d’essais
+• Assistant/assistante ingénieur
+• Technico-commercial...
+ 
+Au sein des entreprises, les diplômés exerceront des responsabilités d'encadrement dans les laboratoires, les centres d'essais, les services mesures-essais, métrologie ou qualité, dans les services recherche-développement ou dans les bureaux d'études.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1529,7 +1992,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CIM" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="StG-jD-EfR">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="120" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1541,7 +2004,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OT0-s1-QNM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1837" y="479"/>
+            <point key="canvasLocation" x="389" y="2027"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lQV-8T-FSC">
@@ -1551,11 +2014,36 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="kMC-bl-hI4">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="kMC-bl-hI4">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Resp. pédagogique de la licence pro. : Romain Richard
+
+ 
+Formation continue et apprentissage
+ 
+La licence professionnelle « Conducteur de Travaux en Maisons individuelles - CTMI » a été ouverte en septembre 2008 et reconduite pour deux années jusqu’en 2012. Cette licence professionnelle, dès sa création, a bénéficié d’une étroite collaboration et d’un constant soutien de la part des milieux professionnels du Bâtiment.
+ 
+Compte tenu des modifications constatées ou prévisibles de la réglementation thermique à l’issue du « Grenelle de l’Environnement » (RT 2005 et BBC, RT 2012 et RT 2020) et des évolutions des systèmes constructifs, il a été jugé opportun de faire évoluer la licence professionnelle en élargissant ses compétences initiales. Cette restructuration permet d’améliorer son taux d’insertion professionnelle en élargissant son champ de compétences.
+ 
+Cette  nouvelle spécialité "Conduite de Travaux et Performance Energétique des bâtiments" a pour objectif de former des cadres moyens ou des agents de maîtrise destinés à pourvoir des postes d’encadrement ou de direction de chantier dans les entreprises de construction au sens large du terme.
+
+Public visé
+Accessible en alternance (contrats d'apprentissage ou de professionnalisation) pour :
+• les étudiants titulaires d'un DEUG, DUT, BTS ayant un rapport avec l'acte de construire ou l'aménagement du territoire
+• L2 science et technologie
+• les étudiants d'autres disciplines (admission sur dosssier et entretien)
+• les salariés des entreprises de la branche professionnelle du BTP en formation continue (CIF) ou VAE
+• les demandeurs d'emplois satisfaisants aux pré-requis.
+
+Après la licence pro.
+• Maîtrise d’ouvrage : Chargé d’opérations
+• Collectivités territoriales : Chargé de mission, Conseiller énergie
+• Bureau d’étude : Assistant d’ingénieur en efficacité énergétique/structure
+• Bureau de contrôle : Chargé d’études énergétiques
+• Maîtrise d’œuvre : Collaborateur d’architecte, Assistant d’ingénieur, ordonnancement, pilotage et coordination de travaux
+• Entreprise : chef d’entreprise de construction ou de réhabilitation (création ou reprise), chargé d’affaires (gros œuvre, second oeuvre, maîtrise énergétique et environnementale), conducteur de travaux d’une entreprise de bâtiment, coordinateur TCE</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1568,7 +2056,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CTPEB" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="79a-uA-Ci1">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="120" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1580,7 +2068,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xer-va-BKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1994" y="1307"/>
+            <point key="canvasLocation" x="1271" y="2251"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4yP-De-vDV">
@@ -1591,10 +2079,28 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="XgZ-ga-THJ">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Entrez dans le domaine du Marketing &amp; de la Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs, la licence MOSEL.
+
+Les métiers visés sont nombreux et tendent tous vers une professionnalisation indispensable grâce à l'acquisition de connaissances, de compétences spécifiques et d'une confrontation continue par l'expérience.
+
+De  nombreux professionnels, au cœur des organisations, interviennent dans la formation. Ils assurent plus de 85% des enseignements et vous communiquent leur passion en s'appuyant notamment sur leur expérience.
+
+La promotion 2012-2013, composée de 28 étudiants, a suivi une formation organisée selon différents axes transversaux de l'évènementiel :
+
+- le Spectacle (Festivals, multiplexes, espaces culturels, salles de spectacle...)
+
+- les Loisirs (collectivités locales, manifestations publiques..)
+
+- le Sport (ligues, clubs, salles de sport, manifestations &amp; compétitions sportives...)
+
+- le BtoB (incentive, grands médias, salons professionnels,..) 
+
+
+
+A l'issue de la formation, avec 420 heures de cours, 130 heures de projets et 4 mois de stage rémunéré, les étudiants doivent être capables d'accompagner le développement marketing et commercial de l'organisation.`</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1607,7 +2113,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MOSEL" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q34-qN-tSD">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="120" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1619,7 +2125,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t5e-yP-4Ii" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2838" y="1199"/>
+            <point key="canvasLocation" x="2212" y="1317"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Hvj-Jz-wMF">
@@ -1630,10 +2136,35 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="SJP-N7-GnY">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                                <rect key="frame" x="0.0" y="140" width="320" height="935"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Responsables pédagogiques | Igor Abgossou, Guillaume Jehannin
+Formation initiale, formation continue, contrat de professionnalisation
+ 
+
+Cette licence professionnelle en alternance forme des professionnels de l'intervention sociale.
+ 
+Les compétences visées :
+• construire des relations de qualité avec différents publics,
+• produire un diagnostic sur les besoins d'un public au niveau d'un territoire,
+• inscrire sa réflexion et son action dans une connaissance actualisée des problématiques de l'intervention sociale,
+• concevoir un projet d’animation dans le cadre des objectifs de l’organisation,
+• mettre en oeuvre un projet et le coordonner dans le cadre d'un partenariat,
+• développer une démarche et des outils de valorisation de l'action
+• évaluer son action, la discuter et en proposer des prolongements,
+• adoper une démarche réflexive favorisant la professionnalisation.
+ 
+Public visé
+• Titulaires d'un diplôme de niveau III (DUT, BTS...) ayant une expérience dans le domaine de l'intervention sociale et un projet de formation basé sur l'alternance,
+• L2 ou supérieur en sciences humaines et sociales,
+• Salariés ou demandeurs d'emploi relevant de la formation continue pour lesquels la validation des acquis est possible.
+
+Insertion professionnelle
+La licence prépare aux fonctions de coordinateur de projet d'intervention sociale dans un cadre parteneurial. Les emplois le plus souvent occupés par les étudiants sont les suivants :
+• animateur-coordinateur secteur enfance/jeunesse (associations, MJC, maisons de quartier, fédération départementale...)
+• coordonnateur de dispositifs (programmes de réussite éducative, dispositifs de prévention...)
+• responsable Point Information Jeunesse, chargé d'accompagnement socio-professionnel... </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1646,7 +2177,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ASS" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vhc-zw-xhW">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="120" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1658,7 +2189,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Od-jJ-CZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1582" y="1307"/>
+            <point key="canvasLocation" x="882" y="2231"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kmm-8X-GrH">
@@ -1668,11 +2199,39 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="J9Y-IF-jH4">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="J9Y-IF-jH4">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale, continue et apprentissage | Site Engel Gros à Belfort
+ 
+La licence professionnelle EnR forme des responsables de niveau II capables de conduire un projet dans la production, l’utilisation, la maîtrise, l’économie et la gestion d’énergie issue de sources renouvelables.
+ 
+Publics visés
+• L2 scientifiques du parcours LMD,
+• DUT GTE, GC, GEII, MP, GMP,
+• BTS Fluides - Energies - Environnement,
+• Salariés ou demandeurs d’emploi relevant de la formation continue pour lesquels la validation d’acquis est possible.
+puce Opter pour l'apprentissage 
+La licence professionnelle EnR est habilitée à l'apprentissage depuis septembre 2011.
+ 
+Les apprentis suivent le mêmes cours que les étudiants en formation initiale. Ils se retrouvent en entreprise pendant les vacances scolaires (2 semaines à la Toussaint et en décembre au premier semestre) et lors du stage au second semestre (16 semaines).
+ 
+Les modalités d'obtention du diplôme sont également les mêmes que pour une licence professionnelle en formation initiale (contrôle continu).
+ 
+L'apprentissage est ouvert aux étudiants de moins de 26 ans à la signature du contrat avec l'entreprise (possibilité de contrat de professionnalisation pour les autres publics).
+ 
+Les avantages sont multiples, à la fois pour l'étudiant et pour l'entreprise d'accueil.
+Toutefois, choisir l'apprentissage implique un engagement personnel important : organisation et responsabilité sont les qualités nécessaires pour mener à bien son projet. 
+ 
+Insertion professionnelle 
+Métiers de l’énergie et de l’environnement dans les secteurs :
+• chauffage, climatisation, froid,
+• éolien, hydroélectricité,
+• solaire thermique et solaire photovoltaïque,
+• bois-énergie, biogaz, géothermie…
+ 
+Exemples : exploitant privé ou communal de site de production d’énergie, chargé d’affaires en énergies alternatives, animateur énergie...</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1685,7 +2244,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EE" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TNz-gZ-PoC">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="120" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1697,7 +2256,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gzo-YK-hnE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2427" y="1271"/>
+            <point key="canvasLocation" x="1767" y="2183"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VZz-i0-VuD">
@@ -1707,11 +2266,27 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="XTG-wB-qtt">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="XTG-wB-qtt">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale et continue | Site Belfort Techn'Hom
+ 
+Conçue en partenriat avec l'UFR Sciences à Besançon, la licence professionnelle SIL (Systèmes Informatiques et Logiciels) spécialité Conception d'Applications Multi-tiers propose deux parcours, dont celui-ci enseigné à l'IUT de Belfort-Montbéliard.
+Le parcours TeProW vise à former des cadres de niveau intermédiaire capables de s'adapter à l'évolution des nouvelles technologies de développement d'applications web et mobiles. 
+ 
+Formés au travail en équipe, les diplômés sauront planifier et piloter un projet réalisé par une équipe de développeurs.
+ 
+Public visé 
+• DUT informatique, DUT réseaux et télécommunications,
+• BTS informatique,
+• L2 (120 crédits ECTS) dans le domaine scientifique pouvant justifier de bonnes connaissances en programmation.
+• Salariés ou demandeurs d’emploi relevant de la formation continue pour lesquels la validation des acquis est possible.
+
+Insertion professionnelle
+• Développement et maintenance d'applications multi-tiers
+• Développement de serveurs et de clients web 
+• Développement d'applications sur mobiles : Androïd </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1724,7 +2299,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teprow" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QLh-IW-Lev">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="120" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1736,7 +2311,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="auc-UI-bZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2860" y="2003"/>
+            <point key="canvasLocation" x="2298" y="2107"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5jw-Ga-N8n">
@@ -1746,14 +2321,6 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Od3-XE-HoK">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="7rg-pI-Npf">
                                 <rect key="frame" x="0.0" y="67" width="100" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1763,11 +2330,40 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Véhicule" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rlf-M9-caO">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="110" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="Od3-XE-HoK">
+                                <rect key="frame" x="0.0" y="140" width="320" height="339"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Formation initiale, continue et apprentissage | Avenue Maréchal Juin à Belfort
+ 
+La licence professionnelle VEGA a pour but de former des assistants ingénieurs et cadres intermédiaires dans les domaines de l'électronique embarquée, la mise en œuvre de réseaux multiplexés, le développement de bancs de tests pour organes de véhicules, la maintenance et développement de nouvelles technologies sur les véhicules (électriques et hybrides).
+ 
+Les diplômés seront capables de gérer des projets et de suivre un dossier afin de définir les besoins en moyens techniques et humains, mais également d'assurer tout ou partie de la relation commerciale avec le client.
+ 
+Publics visés
+• DUT / BTS / L2 en électronique, électrotechnique, maintenance automobile ou industrielle,
+• Salariés ou demandeurs d’emploi relevant de la formation continue pour lesquels la validation d’acquis est possible.
+puce Insertion professionnelle
+Les secteurs qui recrutent ces techniciens sont les constructeurs et équipementiers automobiles, les acteurs de la filière transports terrestres, routiers, ferroviaires, urbains ou les infrastructures. 
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DZS-nZ-CFW">
+                                <rect key="frame" x="72" y="487" width="167" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Insertion professionnelle">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="y3B-fr-0ha" kind="push" id="B9s-uO-OQ4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1775,7 +2371,39 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g2d-US-7T3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2018" y="1971"/>
+            <point key="canvasLocation" x="2038" y="423"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D12-RR-78C">
+            <objects>
+                <viewController id="y3B-fr-0ha" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZfB-3W-qTD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nSm-6j-N31">
+                                <rect key="frame" x="67" y="68" width="187" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="statvega5.png" id="7Zw-Ic-kba">
+                                <rect key="frame" x="0.0" y="95" width="320" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vega1011v2.png" id="XaH-Oz-axH">
+                                <rect key="frame" x="0.0" y="308" width="320" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="09k-YC-AEI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FAf-2b-lvy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2603" y="410"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gk1-TU-Xla">
@@ -1785,11 +2413,33 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="gwn-cG-M2G">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="gwn-cG-M2G">
+                                <rect key="frame" x="0.0" y="140" width="320" height="400"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Responsables pédagogiques | Mabrouka Neffati, Florent Puppis
+Formation initiale, formation continue, contrat de professionnalisation
+ 
+Le professionnel titulaire de la licence professionnelle FVPI doit être en capacité de :
+• Connaître les politiques publiques menées en direction de ces deux publics
+• Connaître les dispositifs publics mis en œuvre
+• Etablir un diagnostic partagé et territorialisé sur les conditions de mise en œuvre de ces dispositifs
+• Proposer une stratégie d’action adaptée
+• Maîtriser la démarche de méthodologie de projet
+• Concevoir, mettre en œuvre et évaluer des projets
+• Animer et coordonner un réseau d’acteurs
+• Ecouter, accompagner les publics concernés
+• Conseiller, former orienter les publics concernés  
+
+Public visé
+• Titulaires d’un DEUST, DUT, BTS Conseiller en Économie Sociale et Familiale,
+• L2 ou supérieur en Sciences Humaines et Sociales,
+• Salariés ou demandeurs d’emploi relevant de la formation continue pour lesquels la validation d’acquis est possible.
+
+Insertion professionnelle
+Conseiller en gérontologie, animateur référent-famille, animateur coordinateur en EHPAD, responsable d’office de retraités, responsable du bénévolat dans une structure à vocation sociale, auprès des personnes vieillissantes et âgées, conseiller social, informateur social, médiateur familial, délégué à la tutelle, coordinateur de projets éducatifs, agent de développement territorial, chargé de prévention, médiateur local.
+ 
+Le stage permet à chaque étudiant d’affiner l’acquisition de compétences spécifiques, en lien avec son projet professionnel.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1802,7 +2452,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FV" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jPv-0O-1TU">
-                                <rect key="frame" x="119" y="55" width="128" height="43"/>
+                                <rect key="frame" x="100" y="100" width="128" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -1814,7 +2464,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EWS-YP-Cgq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1575" y="1955"/>
+            <point key="canvasLocation" x="1619" y="471"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Rd-ZO-ujw">
@@ -1824,11 +2474,32 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="VQ0-Z3-sHR">
-                                <rect key="frame" x="0.0" y="164" width="320" height="404"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" id="VQ0-Z3-sHR">
+                                <rect key="frame" x="0.0" y="140" width="320" height="735"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Formation initiale, continue et apprentissage
+Site Belfort centre
+ 
+Cette formation a pour but de former des collaborateurs commerciaux polyvalents maîtrisant les TIC :
+• conduite de projets,
+• manipulation et exploitation des bases de données pour réaliser des tableaux de bord,
+• maîtrise des logiciels de gestion de la relation commerciale,
+• développement de sites web,
+• animation de réseaux sociaux.
+ 
+Publics visés
+• DUT Tech de Co, GACo, Gestion des Entreprises et des Administrations, Informatique,
+• BTS Management des Unités Commerciales, Négociation et Relation Client, Commerce International, Informatique de Gestion, Assistant PMI/PME,
+• L2 STGI, SJEPG,
+• Salariés ou demandeurs d’emploi relevant de la formation continue, pour lesquels la validation des acquis est possible.
+
+Insertion professionnelle
+Commercialisation de produits liés aux nouvelles technologies (sites internet, logiciels...) et tous les secteurs d’activité tertiaires : assurance, commerce, immobilier, intérim, tourisme, communication commerciale.
+ 
+Métiers à dominante « marketing » : chargé de clientèle, responsable de la stratégie commerciale, responsable GRC, chef de rayon, attaché commercial, responsable secteur.
+ 
+Métiers à dominante « TIC » : data mineur, administrateur de sites Web, conseiller en commerce électronique, social media manager, digitals communications coordinator, search engine marketing specialist.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1853,7 +2524,7 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m9P-wM-lQE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2427" y="1979"/>
+            <point key="canvasLocation" x="2910" y="2107"/>
         </scene>
     </scenes>
     <resources>
@@ -1869,6 +2540,8 @@ L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effe
         <image name="rss-2.png" width="300" height="300"/>
         <image name="slideshow_cp_ecocampus.gif" width="558" height="300"/>
         <image name="slideshow_logos.gif" width="558" height="300"/>
+        <image name="statvega5.png" width="506" height="587"/>
+        <image name="vega1011v2.png" width="499" height="363"/>
         <image name="vignette_ss_challenge.gif" width="100" height="100"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
