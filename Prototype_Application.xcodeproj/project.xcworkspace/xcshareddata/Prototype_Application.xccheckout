@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F1D00777-9FA0-4AFF-AF43-9F93E083BA8B</string>
+	<string>13EC4897-AD09-45C9-B97D-03E84ECA1C26</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Prototype_Application</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B545439A-58FE-4103-9408-06DD1A7FA803</key>
-		<string>https://github.com/benoitStein/projTutAppliApple.git</string>
+		<key>3DBD7C50-A5F2-4975-9FE7-8355B2777D87</key>
+		<string>https://github.com/benoitStein/projTutLP.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Prototype_Application.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B545439A-58FE-4103-9408-06DD1A7FA803</key>
+		<key>3DBD7C50-A5F2-4975-9FE7-8355B2777D87</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/benoitStein/projTutAppliApple.git</string>
+	<string>https://github.com/benoitStein/projTutLP.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B545439A-58FE-4103-9408-06DD1A7FA803</string>
+	<string>3DBD7C50-A5F2-4975-9FE7-8355B2777D87</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B545439A-58FE-4103-9408-06DD1A7FA803</string>
+			<string>3DBD7C50-A5F2-4975-9FE7-8355B2777D87</string>
 			<key>IDESourceControlWCCName</key>
-			<string>projTutAppliApple</string>
+			<string>projTutLP</string>
 		</dict>
 	</array>
 </dict>
