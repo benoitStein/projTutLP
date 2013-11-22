@@ -23,5 +23,4 @@
 @property (weak, nonatomic) IBOutlet UIImageView *facebook;
 @property (weak, nonatomic) IBOutlet UIImageView *twitter;
 @property (weak, nonatomic) IBOutlet UIImageView *google;
-//coucou
 @end
