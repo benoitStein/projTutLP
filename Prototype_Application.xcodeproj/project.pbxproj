@@ -15,6 +15,11 @@
 		F0078656183B57E3008B439D /* 06003950-photo-logo-google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = F0078655183B57E3008B439D /* 06003950-photo-logo-google-plus.png */; };
 		F007865A183B6E06008B439D /* facebook_logo_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = F0078659183B6E06008B439D /* facebook_logo_detail.png */; };
 		F00ECD1518478FD600C2B668 /* recycle-logo-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = F00ECD1418478FD600C2B668 /* recycle-logo-hi.png */; };
+		F00ECD1A184793E900C2B668 /* home44.png in Resources */ = {isa = PBXBuildFile; fileRef = F00ECD16184793E900C2B668 /* home44.png */; };
+		F00ECD1B184793E900C2B668 /* recycle1.png in Resources */ = {isa = PBXBuildFile; fileRef = F00ECD17184793E900C2B668 /* recycle1.png */; };
+		F00ECD1C184793E900C2B668 /* study.png in Resources */ = {isa = PBXBuildFile; fileRef = F00ECD18184793E900C2B668 /* study.png */; };
+		F00ECD1D184793E900C2B668 /* timetable1.png in Resources */ = {isa = PBXBuildFile; fileRef = F00ECD19184793E900C2B668 /* timetable1.png */; };
+		F00ECE281848D2F000C2B668 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00ECE271848D2F000C2B668 /* MapKit.framework */; };
 		F028252E183E18060043E784 /* vega1011v2.png in Resources */ = {isa = PBXBuildFile; fileRef = F028252C183E18060043E784 /* vega1011v2.png */; };
 		F028252F183E18060043E784 /* statvega5.png in Resources */ = {isa = PBXBuildFile; fileRef = F028252D183E18060043E784 /* statvega5.png */; };
 		F029390918365F8E00F19B69 /* LOGO UFC_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F029390818365F8E00F19B69 /* LOGO UFC_1.jpg */; };
@@ -57,6 +62,11 @@
 		F0078655183B57E3008B439D /* 06003950-photo-logo-google-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06003950-photo-logo-google-plus.png"; sourceTree = "<group>"; };
 		F0078659183B6E06008B439D /* facebook_logo_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_logo_detail.png; sourceTree = "<group>"; };
 		F00ECD1418478FD600C2B668 /* recycle-logo-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "recycle-logo-hi.png"; path = "../Images/recycle-logo-hi.png"; sourceTree = "<group>"; };
+		F00ECD16184793E900C2B668 /* home44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home44.png; path = ../../Downloads/Gmail/home44.png; sourceTree = "<group>"; };
+		F00ECD17184793E900C2B668 /* recycle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recycle1.png; path = ../../Downloads/Gmail/recycle1.png; sourceTree = "<group>"; };
+		F00ECD18184793E900C2B668 /* study.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = study.png; path = ../../Downloads/Gmail/study.png; sourceTree = "<group>"; };
+		F00ECD19184793E900C2B668 /* timetable1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = timetable1.png; path = ../../Downloads/Gmail/timetable1.png; sourceTree = "<group>"; };
+		F00ECE271848D2F000C2B668 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F028252C183E18060043E784 /* vega1011v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vega1011v2.png; sourceTree = "<group>"; };
 		F028252D183E18060043E784 /* statvega5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statvega5.png; sourceTree = "<group>"; };
 		F029390818365F8E00F19B69 /* LOGO UFC_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LOGO UFC_1.jpg"; sourceTree = "<group>"; };
@@ -90,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00ECE281848D2F000C2B668 /* MapKit.framework in Frameworks */,
 				F0DF80F01828F77E003444B2 /* CoreGraphics.framework in Frameworks */,
 				F0DF80F21828F77E003444B2 /* UIKit.framework in Frameworks */,
 				F0DF80EE1828F77E003444B2 /* Foundation.framework in Frameworks */,
@@ -132,6 +143,7 @@
 		F0DF80EC1828F77E003444B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F00ECE271848D2F000C2B668 /* MapKit.framework */,
 				F0DF80ED1828F77E003444B2 /* Foundation.framework */,
 				F0DF80EF1828F77E003444B2 /* CoreGraphics.framework */,
 				F0DF80F11828F77E003444B2 /* UIKit.framework */,
@@ -186,6 +198,10 @@
 		F0FACA001836550A00A3C37A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F00ECD16184793E900C2B668 /* home44.png */,
+				F00ECD17184793E900C2B668 /* recycle1.png */,
+				F00ECD18184793E900C2B668 /* study.png */,
+				F00ECD19184793E900C2B668 /* timetable1.png */,
 				F00ECD1418478FD600C2B668 /* recycle-logo-hi.png */,
 				F028252C183E18060043E784 /* vega1011v2.png */,
 				F028252D183E18060043E784 /* statvega5.png */,
@@ -287,14 +303,18 @@
 				F007864C183B56DE008B439D /* f2.png in Resources */,
 				F029390B18365F9B00F19B69 /* IUTBM_quadri.jpg in Resources */,
 				F0293911183664AD00F19B69 /* slideshow_cp_ecocampus.gif in Resources */,
+				F00ECD1A184793E900C2B668 /* home44.png in Resources */,
+				F00ECD1C184793E900C2B668 /* study.png in Resources */,
 				F0078656183B57E3008B439D /* 06003950-photo-logo-google-plus.png in Resources */,
 				F028252F183E18060043E784 /* statvega5.png in Resources */,
 				F007865A183B6E06008B439D /* facebook_logo_detail.png in Resources */,
 				F00ECD1518478FD600C2B668 /* recycle-logo-hi.png in Resources */,
 				F0078650183B56F6008B439D /* icone-maison1.png in Resources */,
+				F00ECD1D184793E900C2B668 /* timetable1.png in Resources */,
 				F029390918365F8E00F19B69 /* LOGO UFC_1.jpg in Resources */,
 				F007864E183B56E8008B439D /* ical.png in Resources */,
 				F029390F1836632700F19B69 /* slideshow_logos.gif in Resources */,
+				F00ECD1B184793E900C2B668 /* recycle1.png in Resources */,
 				F0DF80F81828F77E003444B2 /* InfoPlist.strings in Resources */,
 				F029390D1836624900F19B69 /* vignette_ss_challenge.gif in Resources */,
 				F0DF81011828F77E003444B2 /* Main.storyboard in Resources */,

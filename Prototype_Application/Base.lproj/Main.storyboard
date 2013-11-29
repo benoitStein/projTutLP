@@ -340,7 +340,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <scene sceneID="3sn-QJ-lVq">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Rwe-RC-b3q" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Autres" image="ical.png" id="laX-hd-nty"/>
+                    <tabBarItem key="tabBarItem" title="Autres" id="laX-hd-nty"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fhD-bU-dBq">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
